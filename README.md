@@ -1,7 +1,7 @@
 # CodingTest
 Project for coding test
 
-1. The project contains several files. `UnitKind` is enum with the units that our system supports. `UnitPrefix` is the prefixes that can be added to the `UnitKind`. For example bu adding 'centi' `UnitPrefix` to 'metre' `UnitKind`, we get centimetre. 
+1. The project contains several files. `UnitKind` is an enum with the units that our system supports. `UnitPrefix` contains the prefixes that can be added to the `UnitKind`. For example by adding 'centi' `UnitPrefix` to 'metre' `UnitKind`, we get centimetre. 
 
 2. `BaseUnit` class contains a `UnitKind` and `UnitPrefix`. If no `UnitPrefix` is needed (for example to represent Metre, then `UnitPrefix.Unity` is used. Ignore Exponent value for now.
 
